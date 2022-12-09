@@ -15,7 +15,7 @@ public class Employee implements Manager {
 }*/
 //Multiple Inheritance using interface
 //child class is implementing the multiple parent interface
-public class Employee implements HR,Manager
+public class Employee implements HR ,Manager
 {
 
 	@Override
@@ -30,4 +30,3 @@ public class Employee implements HR,Manager
 	}
 	
 }
-
